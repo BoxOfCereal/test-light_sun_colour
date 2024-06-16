@@ -1,0 +1,11 @@
+//light sun colour [r] [g] [b] [a]
+if $map.alphaColor >= 1 {
+map.alphaColor=1
+map return
+} else {
+map.alphaColor+=.1
+light sun colour $map.redColor $map.greenColor $map.blueColor $map.alphaColor
+}
+status "Opacity: $map.alphaColor"
+
+map return

@@ -1,0 +1,1 @@
+status "$map.redColor $map.greenColor $map.blueColor $map.alphaColor"

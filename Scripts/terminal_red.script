@@ -1,0 +1,12 @@
+//light sun colour [r] [g] [b] [a]
+text "Setting up sun light to red"
+
+map.redColor=0
+map.greenColor=0
+map.blueColor=0
+
+map.redColor+=255
+
+light sun colour $map.redColor $map.greenColor $map.blueColor $map.alphaColor
+
+map return
